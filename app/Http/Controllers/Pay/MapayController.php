@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Redis;
 class MapayController extends PayController
 {
 
-    const PAY_URI = 'https://codepay.fateqq.com/creat_order/?';
+    const PAY_URI = 'https://api.xiuxiu888.com/creat_order/?';
 
     public function gateway($payway, $oid)
     {
