@@ -416,6 +416,8 @@ INSERT INTO `pays` VALUES (17, 'PayPal', 'paypal', 'dump', '商户号', NULL, '�
 INSERT INTO `pays` VALUES (18, 'Mugglepay 数字货币', 'mgcoin', 'dump', '商户号', NULL, '密钥', '/pay/mugglepay', 1, '2020-07-14 16:27:00', NULL);
 INSERT INTO `pays` VALUES (19, 'V 免签支付宝', 'vzfb', 'dump', 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2020-05-01 13:15:56', '2020-05-01 13:18:29');
 INSERT INTO `pays` VALUES (20, 'V 免签微信', 'vwx', 'dump', 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2020-05-01 13:17:28', '2020-05-01 13:18:38');
+INSERT INTO `pays` VALUES (21, '个店支付支付宝', 'gedianpayali', 'dump', '个店免签商户ID', NULL, '个店免签密钥', 'pay/gedianpay', 1, '2020-05-01 13:15:56', '2020-05-01 13:18:29');
+INSERT INTO `pays` VALUES (22, '个店支付签微信', 'gedianpaywx', 'dump', '个店免签商户ID', NULL, '个店免签密钥', 'pay/gedianpay', 1, '2020-05-01 13:17:28', '2020-05-01 13:18:38');
 COMMIT;
 
 -- ----------------------------
