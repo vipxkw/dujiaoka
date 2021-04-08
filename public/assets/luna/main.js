@@ -24,6 +24,8 @@ $(function (w) {
         mgcoin     : alipaySvg,
         vzfb       : alipaySvg,
         vwx        : weChatSvg,
+        gedianpayali       : alipaySvg,
+        gedianpaywx        : weChatSvg,
     };
 
     let msgArea = w.clientWidth <= 768 ? ['85%'] : ['50%'];
