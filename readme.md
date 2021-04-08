@@ -66,6 +66,7 @@ demo地址：[http://dujiaoka.com](http://dujiaoka.com)
 - [x] 麻瓜宝数字货币支付     
 - [x] V免签支付     
 - [x] 全网易支付支持(针对彩虹版) 
+- [x] [个店支付(支付宝/微信)](https://pay.gedian.ren/)
  
 
 ## 基本环境要求
