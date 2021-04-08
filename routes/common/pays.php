@@ -30,4 +30,8 @@ Route::group(['prefix'=>'pay','namespace' => 'Pay'],function(){
     Route::get('vpay/{payway}/{oid}','VpayController@gateway');
     Route::get('vpay/notify_url','VpayController@notifyUrl');
     Route::get('vpay/return_url','VpayController@returnUrl');
+    // 个店免签
+    Route::get('gedianpay/{payway}/{oid}','GedianpayController@gateway');
+    Route::get('gedianpay/notify_url','GedianpayController@notifyUrl');
+    Route::get('gedianpay/return_url','GedianpayController@returnUrl');
 });
