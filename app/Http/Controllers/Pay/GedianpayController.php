@@ -1,9 +1,9 @@
 <?php
 /**
  * GedianpayController.php
- * V免签
- * Author iLay1678
- * Created on 2020/5/1 11:59
+ * 个店免签
+ * Author GeDian
+ * Created on 2021/5/1 11:59
  */
 
 namespace App\Http\Controllers\Pay;
