@@ -34,11 +34,11 @@ class GedianpayController extends PayController
         );
         switch ($this->payInfo['pay_check']) {
             case 'gedianpayali':
-                $parameter['type'] = 2;
+                $parameter['type'] = 1;
                 break;
             case 'gedianpaywx':
             default:
-                $parameter['type'] = 1;
+                $parameter['type'] = 2;
                 break;
         }
         $parameter['sign'] = md5($parameter['mid'] . $parameter['payId'] . $parameter['param'] . $parameter['type'] . $parameter['price'] . $this->payInfo['merchant_pem']);
